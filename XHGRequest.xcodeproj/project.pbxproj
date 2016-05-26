@@ -15,6 +15,7 @@
 		52FCD1DA1CF6ACAE009B2A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FCD1D81CF6ACAE009B2A1B /* LaunchScreen.storyboard */; };
 		52FCD1E51CF6ACAE009B2A1B /* XHGRequestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD1E41CF6ACAE009B2A1B /* XHGRequestTests.m */; };
 		52FCD1F01CF6ACAE009B2A1B /* XHGRequestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD1EF1CF6ACAE009B2A1B /* XHGRequestUITests.m */; };
+		52FCD1FF1CF6C591009B2A1B /* XHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FCD1FE1CF6C591009B2A1B /* XHRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		52FCD1EB1CF6ACAE009B2A1B /* XHGRequestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHGRequestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCD1EF1CF6ACAE009B2A1B /* XHGRequestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHGRequestUITests.m; sourceTree = "<group>"; };
 		52FCD1F11CF6ACAE009B2A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FCD1FD1CF6C591009B2A1B /* XHRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHRequest.h; sourceTree = "<group>"; };
+		52FCD1FE1CF6C591009B2A1B /* XHRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				52FCD1CE1CF6ACAE009B2A1B /* AppDelegate.m */,
 				52FCD1D01CF6ACAE009B2A1B /* ViewController.h */,
 				52FCD1D11CF6ACAE009B2A1B /* ViewController.m */,
+				52FCD1FD1CF6C591009B2A1B /* XHRequest.h */,
+				52FCD1FE1CF6C591009B2A1B /* XHRequest.m */,
 				52FCD1D31CF6ACAE009B2A1B /* Main.storyboard */,
 				52FCD1D61CF6ACAE009B2A1B /* Assets.xcassets */,
 				52FCD1D81CF6ACAE009B2A1B /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				52FCD1D21CF6ACAE009B2A1B /* ViewController.m in Sources */,
 				52FCD1CF1CF6ACAE009B2A1B /* AppDelegate.m in Sources */,
 				52FCD1CC1CF6ACAE009B2A1B /* main.m in Sources */,
+				52FCD1FF1CF6C591009B2A1B /* XHRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				52FCD1F61CF6ACAE009B2A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52FCD1F71CF6ACAE009B2A1B /* Build configuration list for PBXNativeTarget "XHGRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				52FCD1F91CF6ACAE009B2A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52FCD1FA1CF6ACAE009B2A1B /* Build configuration list for PBXNativeTarget "XHGRequestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				52FCD1FC1CF6ACAE009B2A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
